@@ -1,0 +1,62 @@
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/*Image CSS start*/
+
+.img_1{
+    box-shadow: -3px 1px 15px 2px rgba(0,0,0,0.38);
+-webkit-box-shadow: -3px 1px 15px 2px rgba(0,0,0,0.38);
+-moz-box-shadow: -3px 1px 15px 2px rgba(0,0,0,0.38);  
+}
+/*Image CSS end*/
+
+
+/*Button CSS start*/
+.button{
+    background-color: rgb(8, 214, 8);
+    box-shadow: -2px 3px 21px 0px rgba(0,0,0,0.47);
+-webkit-box-shadow: -2px 3px 21px 0px rgba(0,0,0,0.47);
+-moz-box-shadow: -2px 3px 21px 0px rgba(0,0,0,0.47);
+border: 0;
+}
+
+.button:hover{
+    
+    scale: 1.05;
+    transition: .5s;
+}
+
+/*Button CSS End*/
+
+/*add CSS start*/
+.popup{
+    position: relative;
+}
+
+.add_text{
+    position: absolute;
+}
+
+.addtocart_left {
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    font-size: 17.9px;
+    min-height: 136px;
+}
+
+
+
+.fancy_addtocart {
+    background-image:url(https://d21z9fc1hhh10n.cloudfront.net/images/formed-grip-button-fancy.png) ;
+    padding-left: 80px;
+    margin-left: -40px;
+    min-height: 146px;
+    min-width: 407px;
+}
+/*add CSS end*/
